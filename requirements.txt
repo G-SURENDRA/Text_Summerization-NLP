@@ -1,0 +1,27 @@
+transformers==4.56.1            # released Sep 4, 2025 :contentReference[oaicite:0]{index=0}
+transformers[sentencepiece]     # or specify extras if needed
+
+datasets==4.0.0                 # latest for HuggingFace datasets :contentReference[oaicite:1]{index=1}
+
+sacrebleu                       # (latest version unspecified)  
+rouge_score                     # (latest version unspecified)  
+py7zr                           # (latest version unspecified)  
+pandas                          # (latest version unspecified)  
+nltk                            # (latest version unspecified)  
+tqdm                            # (latest version unspecified)  
+PyYAML                          # (latest version unspecified)  
+matplotlib                     # (latest version unspecified)  
+
+torch==2.8.0                    # released Aug 6, 2025 :contentReference[oaicite:2]{index=2}
+
+notebook                        # (latest version unspecified)  
+boto3                           # (latest version unspecified)  
+mypy-boto3-s3                   # (latest version unspecified)  
+python-box==6.0.2               # your pinned version  
+ensure==1.0.2                   # your pinned version  
+
+fastapi==0.116.1                # released Jul 11, 2025 :contentReference[oaicite:3]{index=3}  
+uvicorn==0.18.3                 # your pinned version  
+Jinja2==3.1.2                   # your pinned version  
+
+-e .                            # your local package  
